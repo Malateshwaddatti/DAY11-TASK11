@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">fi
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    //Declare four variables without assigning values and print them in console;
+    var fst;
+    var second;
+    var third;
+    var fourth;
+    console.log(fst);
+    console.log(second);
+    console.log(third);
+    console.log(fourth);
+
+    //2.How to get value of the variable myvar as output
+var myvar= 1;
+console.log("myvar");
+var yashu=2;
+console.log("yashu");
+
+//3.Declare variables to store your first name, last name, marital status, country and age in multiple lines;
+   class personal{
+    first name:"Malatesh";
+    Last Name :"Waddatti";
+    maritual status :"Male";
+    country:"india";
+    Age:25;
+
+   }
+
+   //4.Declare variables to store your first name, last name, marital status, country and age in single line;
+   var arr=[first name:malatesh,second name:waddatti, maritual status:Male,country:india,age:25];
+
+   //5.. Declare variables and assign string, boolean, undefined and null data types;
+        var a="Hello world";
+        var b="true";
+        var c="undefined";
+        var d=null;
+
+    //6.Convert string to parseintger;
+        var a=parseint("i am 30 years old")+"<br>";
+
+   //7.7. Write 6 statement which provide truthy & falsey values.
+
+     false
+0
+empty string
+null
+undefined
+NaN
+
+//Task 2: Simple Programs todo for Operators
+
+//1.Square of a number
+ function squareIt(number) {
+  return number ** 2;
+}
+
+console.log(squareIt(5));
+
+//2.Swapping 2 numbers
+
+var a = 1,
+    b = 2;
+
+[a, b] = [b, a];
+
+console.log('a:', a, 'b:', b); // a: 2 b: 1
+
+//3.Addition of 3 numbers
+function sumNumbers(a, b, c) {
+var sum = a + b + c;console.log(sum);
+}
+sumNumbers(1, 2, 3);
+
+//4.Celsius to Fahrenheit conversion
+ function convert(degree) {
+  var x;
+  if (degree == "C") {
+    x = document.getElementById("c").value * 9 / 5 + 32;
+    document.getElementById("f").value = Math.round(x);
+  } else {
+    x = (document.getElementById("f").value -32) * 5 / 9;
+    document.getElementById("c").value = Math.round(x);
+  }
+}
+
+//5.Meter to miles
+ function getMiles(i) {
+     return i*0.000621371192;
+}
+function getMeters(i) {
+     return i*1609.344;
+}
+
+//6.Pounds to kg
+function weightConverter(valNum) {
+  document.getElementById("outputGrams").innerHTML = valNum / 0.0022046;
+}
+
+//7.Power of any number x ^ y.
+
+    var b, e, r;
+    
+    // b = base
+    // e = exponent
+    // r = result
+    
+    b = 8;
+    e = 4;
+    
+    // finding power of base value by equiping exponent value
+    r = Math.pow(b, e);
+    
+    document.write("Result:: " + b +"^" + e + " = " + r )
+    
+    //8.Calculate Simple Interest
+     var p, t, r, SI;
+    
+    // p = principal
+    // t = time
+    // r = rate
+    // SI = simple interest
+    
+    // Calculate simple interest
+    p = 15;
+    t = 12;
+    r = 12;
+    
+    SI = (p * t * r) / 100;
+    
+    // Output
+    document.write("Simple Interest = " + SI);
+
+    //9.Calculate area of an equilateral triangle
+     var side1 = 5; 
+var side2 = 6; 
+var side3 = 7; 
+var s = (side1 + side2 + side3)/2;
+var area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
+console.log(area);
+
+//10.Display the asterisk pattern as shown below(No loop needed):
+
+for(i=0;i<=5;i++)
+{
+    for(j=0;j<=i;j++)
+    {
+        document.write('*');
+    }
+    document.write('<br>')
+}
+
+
+</script>
+    
+</body>
+</html>
